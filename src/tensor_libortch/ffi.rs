@@ -51,5 +51,6 @@ extern "C" {
     pub fn CreateAdam(linear_ptr: *mut c_void, lr: f32) -> *mut c_void;
     pub fn Backward(loss_ptr: *mut c_void);
     pub fn OptimizerStep(optimizer_ptr: *mut c_void);
+    pub fn OptimizerZeroGrad(optimizer_ptr: *mut c_void);
     pub fn FreeOptimizer(ptr: *mut c_void);
 }

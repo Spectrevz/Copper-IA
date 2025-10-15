@@ -134,9 +134,14 @@ impl FlowTensors {
         unsafe {
             let data_ptr = crate::tensor_tensorflow::ffi::GetTensorData(self.ptr);
             if data_ptr.is_null() {
+                eprintln!("Erro: GetTensorData retornou ponteiro nulo");
                 return None;
             }
             let size = self.dims.iter().product::<i64>() as usize;
+            if size == 0 {
+                eprintln!("Aviso: Tensor com tamanho zero");
+                return Some(&[]);
+            }
             Some(std::slice::from_raw_parts(data_ptr, size))
         }
     }

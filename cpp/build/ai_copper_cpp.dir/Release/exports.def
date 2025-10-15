@@ -275,6 +275,7 @@ EXPORTS
 	??$_Unfancy_maybe_null@UTF_Output@@@std@@YAPEAUTF_Output@@PEAU1@@Z
 	??$_Unfancy_maybe_null@V?$weak_intrusive_ptr@UStorageImpl@c10@@U?$intrusive_target_default_null_type@UStorageImpl@c10@@@detail@2@@c10@@@std@@YAPEAV?$weak_intrusive_ptr@UStorageImpl@c10@@U?$intrusive_target_default_null_type@UStorageImpl@c10@@@detail@2@@c10@@PEAV12@@Z
 	??$_Unfancy_maybe_null@VStream@c10@@@std@@YAPEAVStream@c10@@PEAV12@@Z
+	??$_Unfancy_maybe_null@VTensor@at@@@std@@YAPEAVTensor@at@@PEAV12@@Z
 	??$_Uninitialized_copy@PEAUDevice@c10@@PEAU12@V?$allocator@UDevice@c10@@@std@@@std@@YAPEAUDevice@c10@@PEAU12@00AEAV?$allocator@UDevice@c10@@@0@@Z
 	??$_Uninitialized_copy@PEAUIValue@c10@@PEAU12@V?$allocator@UIValue@c10@@@std@@@std@@YAPEAUIValue@c10@@PEAU12@00AEAV?$allocator@UIValue@c10@@@0@@Z
 	??$_Uninitialized_copy_n@PEAUIValue@c10@@V?$allocator@UIValue@c10@@@std@@@std@@YAPEAUIValue@c10@@PEAU12@_K0AEAV?$allocator@UIValue@c10@@@0@@Z
@@ -333,7 +334,7 @@ EXPORTS
 	??$_typeMetaData@V?$vector@KV?$allocator@K@std@@@std@@@TypeMeta@caffe2@@CAGXZ
 	??$_typeMetaData@V?$vector@_JV?$allocator@_J@std@@@std@@@TypeMeta@caffe2@@CAGXZ
 	??$_typeMetaData@V_Uninitialized@detail@caffe2@@@TypeMeta@caffe2@@CAGXZ
-	??$accumulate@PEA_JHU?$multiplies@_J@std@@@std@@YAHQEA_J0HU?$multiplies@_J@0@@Z
+	??$accumulate@PEA_J_KU?$multiplies@_K@std@@@std@@YA_KQEA_J0_KU?$multiplies@_K@0@@Z
 	??$addressof@$$CBV?$_Vector_val@U?$_Simple_types@UDevice@c10@@@std@@@std@@@std@@YAPEBV?$_Vector_val@U?$_Simple_types@UDevice@c10@@@std@@@0@AEBV10@@Z
 	??$addressof@$$CBV?$vector@UIValue@c10@@V?$allocator@UIValue@c10@@@std@@@std@@@std@@YAPEBV?$vector@UIValue@c10@@V?$allocator@UIValue@c10@@@std@@@0@AEBV10@@Z
 	??$addressof@D@std@@YAPEADAEAD@Z
@@ -919,7 +920,7 @@ EXPORTS
 	??R?$_Func_class@XAEAUFuture@ivalue@c10@@@std@@QEBAXAEAUFuture@ivalue@c10@@@Z
 	??R?$default_delete@UAutogradMeta@autograd@torch@@@std@@QEBAXPEAUAutogradMeta@autograd@torch@@@Z
 	??R?$default_delete@UAutogradMetaInterface@c10@@@std@@QEBAXPEAUAutogradMetaInterface@c10@@@Z
-	??R?$multiplies@_J@std@@QEBA_JAEB_J0@Z
+	??R?$multiplies@_K@std@@QEBA_KAEB_K0@Z
 	??Y?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@I@std@@@std@@@std@@QEAAAEAV01@_J@Z
 	??Y?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UIValue@c10@@@std@@@std@@@std@@QEAAAEAV01@_J@Z
 	??Y?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@I@std@@@std@@@std@@QEAAAEAV01@_J@Z
@@ -1108,6 +1109,7 @@ EXPORTS
 	?_Unchecked_begin@?$vector@V?$weak_intrusive_ptr@UStorageImpl@c10@@U?$intrusive_target_default_null_type@UStorageImpl@c10@@@detail@2@@c10@@V?$allocator@V?$weak_intrusive_ptr@UStorageImpl@c10@@U?$intrusive_target_default_null_type@UStorageImpl@c10@@@detail@2@@c10@@@std@@@std@@QEAAPEAV?$weak_intrusive_ptr@UStorageImpl@c10@@U?$intrusive_target_default_null_type@UStorageImpl@c10@@@detail@2@@c10@@XZ
 	?_Unchecked_begin@?$vector@V?$weak_intrusive_ptr@UStorageImpl@c10@@U?$intrusive_target_default_null_type@UStorageImpl@c10@@@detail@2@@c10@@V?$allocator@V?$weak_intrusive_ptr@UStorageImpl@c10@@U?$intrusive_target_default_null_type@UStorageImpl@c10@@@detail@2@@c10@@@std@@@std@@QEBAPEBV?$weak_intrusive_ptr@UStorageImpl@c10@@U?$intrusive_target_default_null_type@UStorageImpl@c10@@@detail@2@@c10@@XZ
 	?_Unchecked_begin@?$vector@VStream@c10@@V?$allocator@VStream@c10@@@std@@@std@@QEAAPEAVStream@c10@@XZ
+	?_Unchecked_begin@?$vector@VTensor@at@@V?$allocator@VTensor@at@@@std@@@std@@QEAAPEAVTensor@at@@XZ
 	?_Unchecked_end@?$vector@UDevice@c10@@V?$allocator@UDevice@c10@@@std@@@std@@QEAAPEAUDevice@c10@@XZ
 	?_Unchecked_end@?$vector@UDevice@c10@@V?$allocator@UDevice@c10@@@std@@@std@@QEBAPEBUDevice@c10@@XZ
 	?_Unchecked_end@?$vector@UEvent@c10@@V?$allocator@UEvent@c10@@@std@@@std@@QEAAPEAUEvent@c10@@XZ
@@ -1115,6 +1117,7 @@ EXPORTS
 	?_Unchecked_end@?$vector@V?$weak_intrusive_ptr@UStorageImpl@c10@@U?$intrusive_target_default_null_type@UStorageImpl@c10@@@detail@2@@c10@@V?$allocator@V?$weak_intrusive_ptr@UStorageImpl@c10@@U?$intrusive_target_default_null_type@UStorageImpl@c10@@@detail@2@@c10@@@std@@@std@@QEAAPEAV?$weak_intrusive_ptr@UStorageImpl@c10@@U?$intrusive_target_default_null_type@UStorageImpl@c10@@@detail@2@@c10@@XZ
 	?_Unchecked_end@?$vector@V?$weak_intrusive_ptr@UStorageImpl@c10@@U?$intrusive_target_default_null_type@UStorageImpl@c10@@@detail@2@@c10@@V?$allocator@V?$weak_intrusive_ptr@UStorageImpl@c10@@U?$intrusive_target_default_null_type@UStorageImpl@c10@@@detail@2@@c10@@@std@@@std@@QEBAPEBV?$weak_intrusive_ptr@UStorageImpl@c10@@U?$intrusive_target_default_null_type@UStorageImpl@c10@@@detail@2@@c10@@XZ
 	?_Unchecked_end@?$vector@VStream@c10@@V?$allocator@VStream@c10@@@std@@@std@@QEAAPEAVStream@c10@@XZ
+	?_Unchecked_end@?$vector@VTensor@at@@V?$allocator@VTensor@at@@@std@@@std@@QEAAPEAVTensor@at@@XZ
 	?_Unwrapped@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UDevice@c10@@@std@@@std@@@std@@QEBAPEBUDevice@c10@@XZ
 	?_Unwrapped@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UDevice@c10@@@std@@@std@@@std@@QEBAPEAUDevice@c10@@XZ
 	?_Use_count@_Ref_count_base@std@@QEBAJXZ
@@ -1457,6 +1460,7 @@ EXPORTS
 	LoadSavedModel
 	MSELoss
 	OptimizerStep
+	OptimizerZeroGrad
 	RunSession
 	TensorAbs
 	TensorArgmax

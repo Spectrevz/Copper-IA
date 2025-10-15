@@ -40,14 +40,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
@@ -99,7 +91,7 @@ events:
       The output was:
       0
       Vers├úo do MSBuild 17.14.14+a129329f1 para .NET Framework
-      Compila├º├úo de 15/10/2025 03:55:06 iniciada.
+      Compila├º├úo de 15/10/2025 04:30:41 iniciada.
       
       Projeto "D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
       PrepareForBuild:
@@ -128,7 +120,7 @@ events:
           0 Aviso(s)
           0 Erro(s)
       
-      Tempo Decorrido 00:00:01.34
+      Tempo Decorrido 00:00:01.59
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -164,8 +156,6 @@ events:
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/deps/"
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
-      - "C:/libtorch/lib/"
-      - "C:/tensorflow/"
       - "C:/devkitPro/msys2/usr/bin/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
@@ -179,6 +169,7 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/libtorch/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/tensorflow/"
       - "D:/workspace/Git/cmd/"
       - "D:/workspace/Sqlite3/"
       - "D:/workspace/php/php-8.4/"
@@ -207,14 +198,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
@@ -276,8 +259,6 @@ events:
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/deps/"
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
-      - "C:/libtorch/lib/"
-      - "C:/tensorflow/"
       - "C:/devkitPro/msys2/usr/bin/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
@@ -291,6 +272,7 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/libtorch/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/tensorflow/"
       - "D:/workspace/Git/cmd/"
       - "D:/workspace/Sqlite3/"
       - "D:/workspace/php/php-8.4/"
@@ -322,12 +304,6 @@ events:
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link.com"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link.exe"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link"
-      - "C:/libtorch/lib/lld-link.com"
-      - "C:/libtorch/lib/lld-link.exe"
-      - "C:/libtorch/lib/lld-link"
-      - "C:/tensorflow/lld-link.com"
-      - "C:/tensorflow/lld-link.exe"
-      - "C:/tensorflow/lld-link"
       - "C:/devkitPro/msys2/usr/bin/lld-link.com"
       - "C:/devkitPro/msys2/usr/bin/lld-link.exe"
       - "C:/devkitPro/msys2/usr/bin/lld-link"
@@ -367,6 +343,9 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/tensorflow/lld-link.com"
+      - "C:/tensorflow/lld-link.exe"
+      - "C:/tensorflow/lld-link"
       - "D:/workspace/Git/cmd/lld-link.com"
       - "D:/workspace/Git/cmd/lld-link.exe"
       - "D:/workspace/Git/cmd/lld-link"
@@ -429,14 +408,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
@@ -496,8 +467,6 @@ events:
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/deps/"
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
-      - "C:/libtorch/lib/"
-      - "C:/tensorflow/"
       - "C:/devkitPro/msys2/usr/bin/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
@@ -511,6 +480,7 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/libtorch/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/tensorflow/"
       - "D:/workspace/Git/cmd/"
       - "D:/workspace/Sqlite3/"
       - "D:/workspace/php/php-8.4/"
@@ -539,14 +509,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
@@ -606,8 +568,6 @@ events:
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/deps/"
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
-      - "C:/libtorch/lib/"
-      - "C:/tensorflow/"
       - "C:/devkitPro/msys2/usr/bin/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
@@ -621,6 +581,7 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/libtorch/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/tensorflow/"
       - "D:/workspace/Git/cmd/"
       - "D:/workspace/Sqlite3/"
       - "D:/workspace/php/php-8.4/"
@@ -652,12 +613,6 @@ events:
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/mt.com"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/mt.exe"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/mt"
-      - "C:/libtorch/lib/mt.com"
-      - "C:/libtorch/lib/mt.exe"
-      - "C:/libtorch/lib/mt"
-      - "C:/tensorflow/mt.com"
-      - "C:/tensorflow/mt.exe"
-      - "C:/tensorflow/mt"
       - "C:/devkitPro/msys2/usr/bin/mt.com"
       - "C:/devkitPro/msys2/usr/bin/mt.exe"
       - "C:/devkitPro/msys2/usr/bin/mt"
@@ -697,6 +652,9 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/tensorflow/mt.com"
+      - "C:/tensorflow/mt.exe"
+      - "C:/tensorflow/mt"
       - "D:/workspace/Git/cmd/mt.com"
       - "D:/workspace/Git/cmd/mt.exe"
       - "D:/workspace/Git/cmd/mt"
@@ -759,14 +717,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
@@ -826,8 +776,6 @@ events:
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/deps/"
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
-      - "C:/libtorch/lib/"
-      - "C:/tensorflow/"
       - "C:/devkitPro/msys2/usr/bin/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
@@ -841,6 +789,7 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/libtorch/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/tensorflow/"
       - "D:/workspace/Git/cmd/"
       - "D:/workspace/Sqlite3/"
       - "D:/workspace/php/php-8.4/"
@@ -869,14 +818,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
@@ -944,14 +885,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
@@ -1003,7 +936,7 @@ events:
       The output was:
       0
       Vers├úo do MSBuild 17.14.14+a129329f1 para .NET Framework
-      Compila├º├úo de 15/10/2025 03:55:07 iniciada.
+      Compila├º├úo de 15/10/2025 04:30:43 iniciada.
       
       Projeto "D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
       PrepareForBuild:
@@ -1032,7 +965,7 @@ events:
           0 Aviso(s)
           0 Erro(s)
       
-      Tempo Decorrido 00:00:01.47
+      Tempo Decorrido 00:00:01.55
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -1068,8 +1001,6 @@ events:
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/deps/"
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
-      - "C:/libtorch/lib/"
-      - "C:/tensorflow/"
       - "C:/devkitPro/msys2/usr/bin/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
@@ -1083,6 +1014,7 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/libtorch/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/tensorflow/"
       - "D:/workspace/Git/cmd/"
       - "D:/workspace/Sqlite3/"
       - "D:/workspace/php/php-8.4/"
@@ -1114,12 +1046,6 @@ events:
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link.com"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link.exe"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link"
-      - "C:/libtorch/lib/lld-link.com"
-      - "C:/libtorch/lib/lld-link.exe"
-      - "C:/libtorch/lib/lld-link"
-      - "C:/tensorflow/lld-link.com"
-      - "C:/tensorflow/lld-link.exe"
-      - "C:/tensorflow/lld-link"
       - "C:/devkitPro/msys2/usr/bin/lld-link.com"
       - "C:/devkitPro/msys2/usr/bin/lld-link.exe"
       - "C:/devkitPro/msys2/usr/bin/lld-link"
@@ -1159,6 +1085,9 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/tensorflow/lld-link.com"
+      - "C:/tensorflow/lld-link.exe"
+      - "C:/tensorflow/lld-link"
       - "D:/workspace/Git/cmd/lld-link.com"
       - "D:/workspace/Git/cmd/lld-link.exe"
       - "D:/workspace/Git/cmd/lld-link"
@@ -1221,14 +1150,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
@@ -1293,8 +1214,6 @@ events:
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/deps/"
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
-      - "C:/libtorch/lib/"
-      - "C:/tensorflow/"
       - "C:/devkitPro/msys2/usr/bin/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
@@ -1308,6 +1227,7 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/libtorch/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/tensorflow/"
       - "D:/workspace/Git/cmd/"
       - "D:/workspace/Sqlite3/"
       - "D:/workspace/php/php-8.4/"
@@ -1357,12 +1277,6 @@ events:
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/rc.com"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/rc.exe"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/rc"
-      - "C:/libtorch/lib/rc.com"
-      - "C:/libtorch/lib/rc.exe"
-      - "C:/libtorch/lib/rc"
-      - "C:/tensorflow/rc.com"
-      - "C:/tensorflow/rc.exe"
-      - "C:/tensorflow/rc"
       - "C:/devkitPro/msys2/usr/bin/rc.com"
       - "C:/devkitPro/msys2/usr/bin/rc.exe"
       - "C:/devkitPro/msys2/usr/bin/rc"
@@ -1402,6 +1316,9 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/tensorflow/rc.com"
+      - "C:/tensorflow/rc.exe"
+      - "C:/tensorflow/rc"
       - "D:/workspace/Git/cmd/rc.com"
       - "D:/workspace/Git/cmd/rc.exe"
       - "D:/workspace/Git/cmd/rc"
@@ -1500,14 +1417,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
@@ -1558,8 +1467,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-my00ub"
-      binary: "D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-my00ub"
+      source: "D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5dj1ql"
+      binary: "D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5dj1ql"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1568,40 +1477,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-my00ub'
+        Change Dir: 'D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5dj1ql'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fd70d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_85b32.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.14.14+a129329f1 para .NET Framework
-        Compila├º├úo de 15/10/2025 03:55:09 iniciada.
+        Compila├º├úo de 15/10/2025 04:30:45 iniciada.
         
-        Projeto "D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-my00ub\\cmTC_fd70d.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5dj1ql\\cmTC_85b32.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
-          Criando o diret├│rio "cmTC_fd70d.dir\\Debug\\".
+          Criando o diret├│rio "cmTC_85b32.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Criando o diret├│rio "D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-my00ub\\Debug\\".
-          Criando o diret├│rio "cmTC_fd70d.dir\\Debug\\cmTC_fd70d.tlog\\".
+          Criando o diret├│rio "D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5dj1ql\\Debug\\".
+          Criando o diret├│rio "cmTC_85b32.dir\\Debug\\cmTC_85b32.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_fd70d.dir\\Debug\\cmTC_fd70d.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_fd70d.dir\\Debug\\cmTC_fd70d.tlog\\unsuccessfulbuild".
+          Criando "cmTC_85b32.dir\\Debug\\cmTC_85b32.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_85b32.dir\\Debug\\cmTC_85b32.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_fd70d.dir\\Debug\\\\" /Fd"cmTC_fd70d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_85b32.dir\\Debug\\\\" /Fd"cmTC_85b32.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_fd70d.dir\\Debug\\\\" /Fd"cmTC_fd70d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_85b32.dir\\Debug\\\\" /Fd"cmTC_85b32.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-my00ub\\Debug\\cmTC_fd70d.exe" /INCREMENTAL /ILK:"cmTC_fd70d.dir\\Debug\\cmTC_fd70d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-my00ub/Debug/cmTC_fd70d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-my00ub/Debug/cmTC_fd70d.lib" /MACHINE:X64  /machine:x64 cmTC_fd70d.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_fd70d.vcxproj -> D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-my00ub\\Debug\\cmTC_fd70d.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5dj1ql\\Debug\\cmTC_85b32.exe" /INCREMENTAL /ILK:"cmTC_85b32.dir\\Debug\\cmTC_85b32.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5dj1ql/Debug/cmTC_85b32.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5dj1ql/Debug/cmTC_85b32.lib" /MACHINE:X64  /machine:x64 cmTC_85b32.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_85b32.vcxproj -> D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5dj1ql\\Debug\\cmTC_85b32.exe
         FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_fd70d.dir\\Debug\\cmTC_fd70d.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_fd70d.dir\\Debug\\cmTC_fd70d.tlog\\cmTC_fd70d.lastbuildstate".
-        Projeto de compila├º├úo pronto "D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-my00ub\\cmTC_fd70d.vcxproj" (destinos padr├úo).
+          Excluindo o arquivo "cmTC_85b32.dir\\Debug\\cmTC_85b32.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_85b32.dir\\Debug\\cmTC_85b32.tlog\\cmTC_85b32.lastbuildstate".
+        Projeto de compila├º├úo pronto "D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5dj1ql\\cmTC_85b32.vcxproj" (destinos padr├úo).
         
         Compila├º├úo com ├¬xito.
             0 Aviso(s)
             0 Erro(s)
         
-        Tempo Decorrido 00:00:01.33
+        Tempo Decorrido 00:00:01.34
         
       exitCode: 0
   -
@@ -1641,8 +1550,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-25zres"
-      binary: "D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-25zres"
+      source: "D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5odk2a"
+      binary: "D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5odk2a"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1652,40 +1561,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-25zres'
+        Change Dir: 'D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5odk2a'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b1612.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fe806.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.14.14+a129329f1 para .NET Framework
-        Compila├º├úo de 15/10/2025 03:55:11 iniciada.
+        Compila├º├úo de 15/10/2025 04:30:47 iniciada.
         
-        Projeto "D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25zres\\cmTC_b1612.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5odk2a\\cmTC_fe806.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
-          Criando o diret├│rio "cmTC_b1612.dir\\Debug\\".
+          Criando o diret├│rio "cmTC_fe806.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Criando o diret├│rio "D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25zres\\Debug\\".
-          Criando o diret├│rio "cmTC_b1612.dir\\Debug\\cmTC_b1612.tlog\\".
+          Criando o diret├│rio "D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5odk2a\\Debug\\".
+          Criando o diret├│rio "cmTC_fe806.dir\\Debug\\cmTC_fe806.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_b1612.dir\\Debug\\cmTC_b1612.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_b1612.dir\\Debug\\cmTC_b1612.tlog\\unsuccessfulbuild".
+          Criando "cmTC_fe806.dir\\Debug\\cmTC_fe806.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_fe806.dir\\Debug\\cmTC_fe806.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_b1612.dir\\Debug\\\\" /Fd"cmTC_b1612.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_fe806.dir\\Debug\\\\" /Fd"cmTC_fe806.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_b1612.dir\\Debug\\\\" /Fd"cmTC_b1612.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_fe806.dir\\Debug\\\\" /Fd"cmTC_fe806.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25zres\\Debug\\cmTC_b1612.exe" /INCREMENTAL /ILK:"cmTC_b1612.dir\\Debug\\cmTC_b1612.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-25zres/Debug/cmTC_b1612.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-25zres/Debug/cmTC_b1612.lib" /MACHINE:X64  /machine:x64 cmTC_b1612.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_b1612.vcxproj -> D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25zres\\Debug\\cmTC_b1612.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5odk2a\\Debug\\cmTC_fe806.exe" /INCREMENTAL /ILK:"cmTC_fe806.dir\\Debug\\cmTC_fe806.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5odk2a/Debug/cmTC_fe806.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5odk2a/Debug/cmTC_fe806.lib" /MACHINE:X64  /machine:x64 cmTC_fe806.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_fe806.vcxproj -> D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5odk2a\\Debug\\cmTC_fe806.exe
         FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_b1612.dir\\Debug\\cmTC_b1612.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_b1612.dir\\Debug\\cmTC_b1612.tlog\\cmTC_b1612.lastbuildstate".
-        Projeto de compila├º├úo pronto "D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25zres\\cmTC_b1612.vcxproj" (destinos padr├úo).
+          Excluindo o arquivo "cmTC_fe806.dir\\Debug\\cmTC_fe806.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_fe806.dir\\Debug\\cmTC_fe806.tlog\\cmTC_fe806.lastbuildstate".
+        Projeto de compila├º├úo pronto "D:\\workspace\\Codespaces\\Cooper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5odk2a\\cmTC_fe806.vcxproj" (destinos padr├úo).
         
         Compila├º├úo com ├¬xito.
             0 Aviso(s)
             0 Erro(s)
         
-        Tempo Decorrido 00:00:01.40
+        Tempo Decorrido 00:00:01.34
         
       exitCode: 0
   -
@@ -1803,22 +1712,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/libtorch/lib/MKLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/libtorch/lib/mkl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/tensorflow/MKLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/tensorflow/mkl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "C:/Program Files/Common Files/Oracle/Java/javapath/MKLConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -1904,6 +1797,14 @@ events:
         reason: "no_exist"
       -
         path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mkl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/tensorflow/MKLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/tensorflow/mkl-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2050,14 +1951,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
@@ -2186,22 +2079,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/libtorch/lib/MKLDNNConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/libtorch/lib/mkldnn-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/tensorflow/MKLDNNConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/tensorflow/mkldnn-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "C:/Program Files/Common Files/Oracle/Java/javapath/MKLDNNConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -2287,6 +2164,14 @@ events:
         reason: "no_exist"
       -
         path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mkldnn-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/tensorflow/MKLDNNConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/tensorflow/mkldnn-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2433,14 +2318,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
@@ -2555,14 +2432,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
@@ -2629,8 +2498,6 @@ events:
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/deps/"
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
-      - "C:/libtorch/lib/"
-      - "C:/tensorflow/"
       - "C:/devkitPro/msys2/usr/bin/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
@@ -2644,6 +2511,7 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/libtorch/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/tensorflow/"
       - "D:/workspace/Git/cmd/"
       - "D:/workspace/Sqlite3/"
       - "D:/workspace/php/php-8.4/"
@@ -2672,6 +2540,7 @@ events:
       - "C:/Program Files/ai_copper/"
       - "C:/Program Files/ai_copper/bin/"
       - "/bin/"
+      - "C:/libtorch/lib/"
     found: "C:/libtorch/lib/c10.lib"
     search_context:
       CMAKE_PREFIX_PATH:
@@ -2680,14 +2549,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
@@ -2758,8 +2619,6 @@ events:
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/deps/"
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
-      - "C:/libtorch/lib/"
-      - "C:/tensorflow/"
       - "C:/devkitPro/msys2/usr/bin/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
@@ -2773,6 +2632,7 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/libtorch/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/tensorflow/"
       - "D:/workspace/Git/cmd/"
       - "D:/workspace/Sqlite3/"
       - "D:/workspace/php/php-8.4/"
@@ -2801,6 +2661,7 @@ events:
       - "C:/Program Files/ai_copper/"
       - "C:/Program Files/ai_copper/bin/"
       - "/bin/"
+      - "C:/libtorch/lib/"
     found: "C:/libtorch/lib/kineto.lib"
     search_context:
       CMAKE_PREFIX_PATH:
@@ -2809,14 +2670,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
@@ -2886,8 +2739,6 @@ events:
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/deps/"
       - "D:/workspace/Codespaces/Cooper/testeai/target/debug/"
       - "C:/Users/domen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
-      - "C:/libtorch/lib/"
-      - "C:/tensorflow/"
       - "C:/devkitPro/msys2/usr/bin/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
@@ -2901,6 +2752,7 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/libtorch/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/tensorflow/"
       - "D:/workspace/Git/cmd/"
       - "D:/workspace/Sqlite3/"
       - "D:/workspace/php/php-8.4/"
@@ -2929,6 +2781,7 @@ events:
       - "C:/Program Files/ai_copper/"
       - "C:/Program Files/ai_copper/bin/"
       - "/bin/"
+      - "C:/libtorch/lib/"
     found: "C:/libtorch/lib/torch.lib"
     search_context:
       CMAKE_PREFIX_PATH:
@@ -2937,14 +2790,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
@@ -3018,14 +2863,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
@@ -3098,14 +2935,6 @@ events:
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug\\deps"
         - "D:\\workspace\\Codespaces\\Cooper\\testeai\\target\\debug"
         - "C:\\Users\\domen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
-        - "C:\\libtorch\\lib"
-        - "C:\\tensorflow\\"
         - "c:\\devkitPro\\msys2\\usr\\bin"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"

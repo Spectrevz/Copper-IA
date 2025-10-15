@@ -6,7 +6,7 @@ fn main() {
 
     // ==================== CRIAÇÃO DE TENSORES ====================
     println!("1. CRIAÇÃO DE TENSORES");
-    println!("-" .repeat(50));
+    println!("{}", "-".repeat(50));
     
     let zeros = Tensor::zeros(2, 3);
     println!("Zeros (2x3):");
@@ -27,7 +27,7 @@ fn main() {
     
     // ==================== FUNÇÕES MATEMÁTICAS ====================
     println!("\n2. FUNÇÕES MATEMÁTICAS");
-    println!("-".repeat(50));
+    println!("{}", "-".repeat(50));
     
     let x = Tensor::from_values(&[0.0, 1.0, 2.0, 3.0], 2, 2);
     println!("Tensor original:");
@@ -51,7 +51,7 @@ fn main() {
     
     // ==================== FUNÇÕES DE ATIVAÇÃO ====================
     println!("\n3. FUNÇÕES DE ATIVAÇÃO");
-    println!("-".repeat(50));
+    println!("{}", "-".repeat(50));
     
     let activations = Tensor::from_values(&[-2.0, -1.0, 0.0, 1.0, 2.0], 1, 5);
     println!("Valores originais:");
@@ -71,7 +71,7 @@ fn main() {
     
     // ==================== ESTATÍSTICAS ====================
     println!("\n4. ESTATÍSTICAS AVANÇADAS");
-    println!("-".repeat(50));
+    println!("{}", "-".repeat(50));
     
     let data = Tensor::from_values(&[1.0, 2.0, 3.0, 4.0, 5.0, 6.0], 2, 3);
     println!("Dataset:");
@@ -89,7 +89,7 @@ fn main() {
     
     // ==================== NEURAL NETWORK COM NOVAS FEATURES ====================
     println!("\n5. REDE NEURAL COM NOVAS FEATURES");
-    println!("-".repeat(50));
+    println!("{}", "-".repeat(50));
     
     // Criar uma rede neural simples
     let layer1 = Linear::new(2, 3);

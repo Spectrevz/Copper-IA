@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <tensorflow/c/c_api.h>
 #include <string>
+#include <cstring>
 #include <torch/torch.h>
 #include <torch/script.h>
 #include <ATen/ATen.h>
@@ -167,16 +168,34 @@ EXPORT void* CreateTFTensor(float* values, int64_t* dims, int num_dims) {
             fprintf(stderr, "Erro: Parâmetros inválidos em CreateTFTensor\n");
             return nullptr;
         }
+        
+        // Calcula o número total de elementos
+        size_t num_elements = std::accumulate(dims, dims + num_dims, size_t(1), std::multiplies<size_t>());
+        size_t data_size = sizeof(float) * num_elements;
+        
+        // Aloca memória que será gerenciada pelo TensorFlow
+        float* tensor_data = static_cast<float*>(malloc(data_size));
+        if (!tensor_data) {
+            fprintf(stderr, "Erro: Falha ao alocar memória para TF_Tensor\n");
+            return nullptr;
+        }
+        
+        // Copia os dados do ponteiro temporário do Rust para memória própria
+        memcpy(tensor_data, values, data_size);
+        
+        // Cria tensor com deallocator que libera a memória alocada
         TF_Tensor* tensor = TF_NewTensor(
             TF_FLOAT,
             dims,
             num_dims,
-            values,
-            sizeof(float) * std::accumulate(dims, dims + num_dims, 1, std::multiplies<int64_t>()),
-            [](void*, size_t, void*) {},
+            tensor_data,
+            data_size,
+            [](void* data, size_t, void*) { free(data); },
             nullptr);
+            
         if (!tensor) {
             fprintf(stderr, "Erro: Falha ao criar TF_Tensor\n");
+            free(tensor_data);
             return nullptr;
         }
         return static_cast<void*>(tensor);
@@ -193,7 +212,20 @@ EXPORT float* GetTensorData(void* tensor_ptr) {
             fprintf(stderr, "Erro: Tensor inválido em GetTensorData\n");
             return nullptr;
         }
-        return static_cast<float*>(TF_TensorData(tensor));
+        
+        // Verifica se o tipo do tensor é float
+        if (TF_TensorType(tensor) != TF_FLOAT) {
+            fprintf(stderr, "Erro: Tensor não é do tipo TF_FLOAT em GetTensorData\n");
+            return nullptr;
+        }
+        
+        float* data = static_cast<float*>(TF_TensorData(tensor));
+        if (!data) {
+            fprintf(stderr, "Erro: TF_TensorData retornou nullptr\n");
+            return nullptr;
+        }
+        
+        return data;
     } catch (const std::exception& e) {
         fprintf(stderr, "Erro em GetTensorData: %s\n", e.what());
         return nullptr;
@@ -244,6 +276,10 @@ EXPORT void FreeModel(void* model_handle) {
 EXPORT void* CreateLinear(int in_features, int out_features) {
     try {
         auto* linear = new torch::nn::LinearImpl(in_features, out_features);
+        // Ensure gradients are enabled for parameters
+        for (auto& param : linear->parameters()) {
+            param.set_requires_grad(true);
+        }
         return static_cast<void*>(linear);
     } catch (const std::exception& e) {
         fprintf(stderr, "Erro em CreateLinear: %s\n", e.what());
@@ -259,7 +295,25 @@ EXPORT void* LinearForward(void* linear_ptr, void* input_tensor_ptr) {
             fprintf(stderr, "Erro: Ponteiros inválidos em LinearForward\n");
             return nullptr;
         }
+        
+        // Debug: Print input shape
+        printf("LinearForward - Input shape: [");
+        for (int64_t i = 0; i < input->dim(); ++i) {
+            printf("%lld", input->size(i));
+            if (i < input->dim() - 1) printf(", ");
+        }
+        printf("]\n");
+        
         at::Tensor* output = new at::Tensor(linear->forward(*input));
+        
+        // Debug: Print output shape
+        printf("LinearForward - Output shape: [");
+        for (int64_t i = 0; i < output->dim(); ++i) {
+            printf("%lld", output->size(i));
+            if (i < output->dim() - 1) printf(", ");
+        }
+        printf("]\n");
+        
         return static_cast<void*>(output);
     } catch (const std::exception& e) {
         fprintf(stderr, "Erro em LinearForward: %s\n", e.what());
@@ -275,7 +329,30 @@ EXPORT void* MSELoss(void* prediction_tensor_ptr, void* target_tensor_ptr) {
             fprintf(stderr, "Erro: Tensores inválidos em MSELoss\n");
             return nullptr;
         }
+        
+        // Debug: Print shapes
+        printf("MSELoss - Prediction shape: [");
+        for (int64_t i = 0; i < prediction->dim(); ++i) {
+            printf("%lld", prediction->size(i));
+            if (i < prediction->dim() - 1) printf(", ");
+        }
+        printf("], Target shape: [");
+        for (int64_t i = 0; i < target->dim(); ++i) {
+            printf("%lld", target->size(i));
+            if (i < target->dim() - 1) printf(", ");
+        }
+        printf("]\n");
+        
         at::Tensor* loss = new at::Tensor(torch::mse_loss(*prediction, *target));
+        
+        // Debug: Print loss info
+        printf("Loss computed - shape: [");
+        for (int64_t i = 0; i < loss->dim(); ++i) {
+            printf("%lld", loss->size(i));
+            if (i < loss->dim() - 1) printf(", ");
+        }
+        printf("], value: %f\n", loss->item<float>());
+        
         return static_cast<void*>(loss);
     } catch (const std::exception& e) {
         fprintf(stderr, "Erro em MSELoss: %s\n", e.what());
@@ -319,8 +396,22 @@ EXPORT void OptimizerStep(void* optimizer_ptr) {
             return;
         }
         optimizer->step();
+        optimizer->zero_grad();  // Reset gradients after step
     } catch (const std::exception& e) {
         fprintf(stderr, "Erro em OptimizerStep: %s\n", e.what());
+    }
+}
+
+EXPORT void OptimizerZeroGrad(void* optimizer_ptr) {
+    try {
+        auto* optimizer = static_cast<torch::optim::Optimizer*>(optimizer_ptr);
+        if (!optimizer) {
+            fprintf(stderr, "Erro: Otimizador inválido em OptimizerZeroGrad\n");
+            return;
+        }
+        optimizer->zero_grad();
+    } catch (const std::exception& e) {
+        fprintf(stderr, "Erro em OptimizerZeroGrad: %s\n", e.what());
     }
 }
 
@@ -409,6 +500,16 @@ EXPORT int TensorRows(void* ptr) {
             fprintf(stderr, "Erro: Tensor inválido em TensorRows\n");
             return -1;
         }
+        // Verificar se o tensor tem dimensões suficientes
+        if (tensor->dim() == 0) {
+            // Tensor escalar (0-D) - retorna 1
+            return 1;
+        }
+        if (tensor->dim() == 1) {
+            // Tensor 1-D - retorna o tamanho da primeira dimensão
+            return tensor->size(0);
+        }
+        // Tensor 2-D ou maior - retorna o tamanho da primeira dimensão
         return tensor->size(0);
     } catch (const std::exception& e) {
         fprintf(stderr, "Erro em TensorRows: %s\n", e.what());
@@ -423,6 +524,16 @@ EXPORT int TensorCols(void* ptr) {
             fprintf(stderr, "Erro: Tensor inválido em TensorCols\n");
             return -1;
         }
+        // Verificar se o tensor tem dimensões suficientes
+        if (tensor->dim() == 0) {
+            // Tensor escalar (0-D) - retorna 1
+            return 1;
+        }
+        if (tensor->dim() == 1) {
+            // Tensor 1-D - consideramos como vetor coluna
+            return 1;
+        }
+        // Tensor 2-D ou maior - retorna o tamanho da segunda dimensão
         return tensor->size(1);
     } catch (const std::exception& e) {
         fprintf(stderr, "Erro em TensorCols: %s\n", e.what());

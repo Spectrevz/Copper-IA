@@ -33,6 +33,7 @@ use crate::tensor_libortch::ffi::{
     CreateAdam,
     Backward,
     OptimizerStep,
+    OptimizerZeroGrad,
     FreeOptimizer,
 };
 
@@ -474,6 +475,10 @@ impl Optimizer {
 
     pub fn step(&self) {
         unsafe { OptimizerStep(self.ptr) };
+    }
+
+    pub fn zero_grad(&self) {
+        unsafe { OptimizerZeroGrad(self.ptr) };
     }
 }
 
