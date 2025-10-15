@@ -1,6 +1,7 @@
 use std::ffi::{CStr, CString};
 use std::os::raw::{c_char, c_void, c_int};
 use std::ptr;
+use std::ops::{Add, Sub, Mul, Div};
 
 pub struct FlowTensors {
     ptr: *mut c_void, // Ponteiro para TF_Tensor*
@@ -269,3 +270,140 @@ impl Drop for FlowTensors {
 // Garante que FlowTensors é seguro para Send e Sync (necessário para FFI)
 unsafe impl Send for FlowTensors {}
 unsafe impl Sync for FlowTensors {}
+
+// Implementação dos operadores aritméticos
+impl Add for FlowTensors {
+    type Output = Option<FlowTensors>;
+
+    fn add(self, other: FlowTensors) -> Self::Output {
+        unsafe {
+            let result_ptr = crate::tensor_tensorflow::ffi::TFTensorAdd(self.ptr, other.ptr);
+            if result_ptr.is_null() {
+                return None;
+            }
+            Some(FlowTensors {
+                ptr: result_ptr,
+                dims: self.dims.clone(),
+            })
+        }
+    }
+}
+
+impl Add for &FlowTensors {
+    type Output = Option<FlowTensors>;
+
+    fn add(self, other: &FlowTensors) -> Self::Output {
+        unsafe {
+            let result_ptr = crate::tensor_tensorflow::ffi::TFTensorAdd(self.ptr, other.ptr);
+            if result_ptr.is_null() {
+                return None;
+            }
+            Some(FlowTensors {
+                ptr: result_ptr,
+                dims: self.dims.clone(),
+            })
+        }
+    }
+}
+
+impl Sub for FlowTensors {
+    type Output = Option<FlowTensors>;
+
+    fn sub(self, other: FlowTensors) -> Self::Output {
+        unsafe {
+            let result_ptr = crate::tensor_tensorflow::ffi::TFTensorSub(self.ptr, other.ptr);
+            if result_ptr.is_null() {
+                return None;
+            }
+            Some(FlowTensors {
+                ptr: result_ptr,
+                dims: self.dims.clone(),
+            })
+        }
+    }
+}
+
+impl Sub for &FlowTensors {
+    type Output = Option<FlowTensors>;
+
+    fn sub(self, other: &FlowTensors) -> Self::Output {
+        unsafe {
+            let result_ptr = crate::tensor_tensorflow::ffi::TFTensorSub(self.ptr, other.ptr);
+            if result_ptr.is_null() {
+                return None;
+            }
+            Some(FlowTensors {
+                ptr: result_ptr,
+                dims: self.dims.clone(),
+            })
+        }
+    }
+}
+
+impl Mul for FlowTensors {
+    type Output = Option<FlowTensors>;
+
+    fn mul(self, other: FlowTensors) -> Self::Output {
+        unsafe {
+            let result_ptr = crate::tensor_tensorflow::ffi::TFTensorMul(self.ptr, other.ptr);
+            if result_ptr.is_null() {
+                return None;
+            }
+            Some(FlowTensors {
+                ptr: result_ptr,
+                dims: self.dims.clone(),
+            })
+        }
+    }
+}
+
+impl Mul for &FlowTensors {
+    type Output = Option<FlowTensors>;
+
+    fn mul(self, other: &FlowTensors) -> Self::Output {
+        unsafe {
+            let result_ptr = crate::tensor_tensorflow::ffi::TFTensorMul(self.ptr, other.ptr);
+            if result_ptr.is_null() {
+                return None;
+            }
+            Some(FlowTensors {
+                ptr: result_ptr,
+                dims: self.dims.clone(),
+            })
+        }
+    }
+}
+
+impl Div for FlowTensors {
+    type Output = Option<FlowTensors>;
+
+    fn div(self, other: FlowTensors) -> Self::Output {
+        unsafe {
+            let result_ptr = crate::tensor_tensorflow::ffi::TFTensorDiv(self.ptr, other.ptr);
+            if result_ptr.is_null() {
+                return None;
+            }
+            Some(FlowTensors {
+                ptr: result_ptr,
+                dims: self.dims.clone(),
+            })
+        }
+    }
+}
+
+impl Div for &FlowTensors {
+    type Output = Option<FlowTensors>;
+
+    fn div(self, other: &FlowTensors) -> Self::Output {
+        unsafe {
+            let result_ptr = crate::tensor_tensorflow::ffi::TFTensorDiv(self.ptr, other.ptr);
+            if result_ptr.is_null() {
+                return None;
+            }
+            Some(FlowTensors {
+                ptr: result_ptr,
+                dims: self.dims.clone(),
+            })
+        }
+    }
+}

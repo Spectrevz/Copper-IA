@@ -64,8 +64,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
   -
     kind: "message-v1"
     backtrace:
@@ -82,7 +82,7 @@ events:
       The output was:
       0
       Vers├úo do MSBuild 17.14.19+164abd434 para .NET Framework
-      Compila├º├úo de 15/10/2025 13:58:48 iniciada.
+      Compila├º├úo de 15/10/2025 15:41:12 iniciada.
       
       Projeto "E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\4.1.0\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
       PrepareForBuild:
@@ -111,7 +111,7 @@ events:
           0 Aviso(s)
           0 Erro(s)
       
-      Tempo Decorrido 00:00:01.38
+      Tempo Decorrido 00:00:01.22
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -168,8 +168,8 @@ events:
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
@@ -204,8 +204,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
   -
     kind: "find-v1"
     backtrace:
@@ -253,8 +253,8 @@ events:
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
@@ -331,12 +331,12 @@ events:
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link.com"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link.exe"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/lld-link.com"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/lld-link.exe"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/lld-link"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/lld-link.com"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/lld-link.exe"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/lld-link"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/lld-link.com"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/lld-link.exe"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/lld-link"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/lld-link.com"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/lld-link.exe"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/lld-link"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
@@ -369,8 +369,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
   -
     kind: "find-v1"
     backtrace:
@@ -416,8 +416,8 @@ events:
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
@@ -452,8 +452,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
   -
     kind: "find-v1"
     backtrace:
@@ -499,8 +499,8 @@ events:
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
@@ -577,12 +577,12 @@ events:
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/mt.com"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/mt.exe"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/mt"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/mt.com"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/mt.exe"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/mt"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/mt.com"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/mt.exe"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/mt"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/mt.com"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/mt.exe"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/mt"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/mt.com"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/mt.exe"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/mt"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
@@ -615,8 +615,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
   -
     kind: "find-v1"
     backtrace:
@@ -662,8 +662,8 @@ events:
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
@@ -698,8 +698,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
   -
     kind: "find-v1"
     backtrace:
@@ -756,8 +756,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
   -
     kind: "message-v1"
     backtrace:
@@ -774,7 +774,7 @@ events:
       The output was:
       0
       Vers├úo do MSBuild 17.14.19+164abd434 para .NET Framework
-      Compila├º├úo de 15/10/2025 13:58:50 iniciada.
+      Compila├º├úo de 15/10/2025 15:41:13 iniciada.
       
       Projeto "E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\4.1.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
       PrepareForBuild:
@@ -803,7 +803,7 @@ events:
           0 Aviso(s)
           0 Erro(s)
       
-      Tempo Decorrido 00:00:01.28
+      Tempo Decorrido 00:00:01.26
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -860,8 +860,8 @@ events:
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
@@ -938,12 +938,12 @@ events:
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link.com"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link.exe"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/lld-link.com"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/lld-link.exe"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/lld-link"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/lld-link.com"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/lld-link.exe"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/lld-link"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/lld-link.com"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/lld-link.exe"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/lld-link"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/lld-link.com"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/lld-link.exe"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/lld-link"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
@@ -976,8 +976,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
   -
     kind: "find-v1"
     backtrace:
@@ -1029,8 +1029,8 @@ events:
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1128,12 +1128,12 @@ events:
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/rc.com"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/rc.exe"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/rc"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/rc.com"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/rc.exe"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/rc"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/rc.com"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/rc.exe"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/rc"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/rc.com"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/rc.exe"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/rc"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/rc.com"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/rc.exe"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/rc"
       - "C:/Program Files/bin/rc.com"
       - "C:/Program Files/bin/rc.exe"
       - "C:/Program Files/bin/rc"
@@ -1202,8 +1202,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/ai_copper"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1219,8 +1219,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ynqa70"
-      binary: "E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ynqa70"
+      source: "E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-miw6zu"
+      binary: "E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-miw6zu"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1229,40 +1229,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ynqa70'
+        Change Dir: 'E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-miw6zu'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f94a3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_940bc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.14.19+164abd434 para .NET Framework
-        Compila├º├úo de 15/10/2025 13:58:52 iniciada.
+        Compila├º├úo de 15/10/2025 15:41:15 iniciada.
         
-        Projeto "E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ynqa70\\cmTC_f94a3.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-miw6zu\\cmTC_940bc.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
-          Criando o diret├│rio "cmTC_f94a3.dir\\Debug\\".
+          Criando o diret├│rio "cmTC_940bc.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Criando o diret├│rio "E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ynqa70\\Debug\\".
-          Criando o diret├│rio "cmTC_f94a3.dir\\Debug\\cmTC_f94a3.tlog\\".
+          Criando o diret├│rio "E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-miw6zu\\Debug\\".
+          Criando o diret├│rio "cmTC_940bc.dir\\Debug\\cmTC_940bc.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_f94a3.dir\\Debug\\cmTC_f94a3.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_f94a3.dir\\Debug\\cmTC_f94a3.tlog\\unsuccessfulbuild".
+          Criando "cmTC_940bc.dir\\Debug\\cmTC_940bc.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_940bc.dir\\Debug\\cmTC_940bc.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_f94a3.dir\\Debug\\\\" /Fd"cmTC_f94a3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_940bc.dir\\Debug\\\\" /Fd"cmTC_940bc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35215 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_f94a3.dir\\Debug\\\\" /Fd"cmTC_f94a3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_940bc.dir\\Debug\\\\" /Fd"cmTC_940bc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ynqa70\\Debug\\cmTC_f94a3.exe" /INCREMENTAL /ILK:"cmTC_f94a3.dir\\Debug\\cmTC_f94a3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ynqa70/Debug/cmTC_f94a3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ynqa70/Debug/cmTC_f94a3.lib" /MACHINE:X64  /machine:x64 cmTC_f94a3.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_f94a3.vcxproj -> E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ynqa70\\Debug\\cmTC_f94a3.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-miw6zu\\Debug\\cmTC_940bc.exe" /INCREMENTAL /ILK:"cmTC_940bc.dir\\Debug\\cmTC_940bc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-miw6zu/Debug/cmTC_940bc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-miw6zu/Debug/cmTC_940bc.lib" /MACHINE:X64  /machine:x64 cmTC_940bc.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_940bc.vcxproj -> E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-miw6zu\\Debug\\cmTC_940bc.exe
         FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_f94a3.dir\\Debug\\cmTC_f94a3.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_f94a3.dir\\Debug\\cmTC_f94a3.tlog\\cmTC_f94a3.lastbuildstate".
-        Projeto de compila├º├úo pronto "E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ynqa70\\cmTC_f94a3.vcxproj" (destinos padr├úo).
+          Excluindo o arquivo "cmTC_940bc.dir\\Debug\\cmTC_940bc.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_940bc.dir\\Debug\\cmTC_940bc.tlog\\cmTC_940bc.lastbuildstate".
+        Projeto de compila├º├úo pronto "E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-miw6zu\\cmTC_940bc.vcxproj" (destinos padr├úo).
         
         Compila├º├úo com ├¬xito.
             0 Aviso(s)
             0 Erro(s)
         
-        Tempo Decorrido 00:00:01.41
+        Tempo Decorrido 00:00:01.31
         
       exitCode: 0
   -
@@ -1302,8 +1302,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-f9fcr9"
-      binary: "E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-f9fcr9"
+      source: "E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-76orcu"
+      binary: "E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-76orcu"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1313,40 +1313,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-f9fcr9'
+        Change Dir: 'E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-76orcu'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_130ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bc3d7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.14.19+164abd434 para .NET Framework
-        Compila├º├úo de 15/10/2025 13:58:54 iniciada.
+        Compila├º├úo de 15/10/2025 15:41:17 iniciada.
         
-        Projeto "E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9fcr9\\cmTC_130ef.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76orcu\\cmTC_bc3d7.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
-          Criando o diret├│rio "cmTC_130ef.dir\\Debug\\".
+          Criando o diret├│rio "cmTC_bc3d7.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Criando o diret├│rio "E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9fcr9\\Debug\\".
-          Criando o diret├│rio "cmTC_130ef.dir\\Debug\\cmTC_130ef.tlog\\".
+          Criando o diret├│rio "E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76orcu\\Debug\\".
+          Criando o diret├│rio "cmTC_bc3d7.dir\\Debug\\cmTC_bc3d7.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_130ef.dir\\Debug\\cmTC_130ef.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_130ef.dir\\Debug\\cmTC_130ef.tlog\\unsuccessfulbuild".
+          Criando "cmTC_bc3d7.dir\\Debug\\cmTC_bc3d7.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_bc3d7.dir\\Debug\\cmTC_bc3d7.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_130ef.dir\\Debug\\\\" /Fd"cmTC_130ef.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_bc3d7.dir\\Debug\\\\" /Fd"cmTC_bc3d7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35215 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_130ef.dir\\Debug\\\\" /Fd"cmTC_130ef.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_bc3d7.dir\\Debug\\\\" /Fd"cmTC_bc3d7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9fcr9\\Debug\\cmTC_130ef.exe" /INCREMENTAL /ILK:"cmTC_130ef.dir\\Debug\\cmTC_130ef.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-f9fcr9/Debug/cmTC_130ef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-f9fcr9/Debug/cmTC_130ef.lib" /MACHINE:X64  /machine:x64 cmTC_130ef.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_130ef.vcxproj -> E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9fcr9\\Debug\\cmTC_130ef.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76orcu\\Debug\\cmTC_bc3d7.exe" /INCREMENTAL /ILK:"cmTC_bc3d7.dir\\Debug\\cmTC_bc3d7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-76orcu/Debug/cmTC_bc3d7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/Copper/ai_copper/cpp/build/CMakeFiles/CMakeScratch/TryCompile-76orcu/Debug/cmTC_bc3d7.lib" /MACHINE:X64  /machine:x64 cmTC_bc3d7.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_bc3d7.vcxproj -> E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76orcu\\Debug\\cmTC_bc3d7.exe
         FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_130ef.dir\\Debug\\cmTC_130ef.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_130ef.dir\\Debug\\cmTC_130ef.tlog\\cmTC_130ef.lastbuildstate".
-        Projeto de compila├º├úo pronto "E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9fcr9\\cmTC_130ef.vcxproj" (destinos padr├úo).
+          Excluindo o arquivo "cmTC_bc3d7.dir\\Debug\\cmTC_bc3d7.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_bc3d7.dir\\Debug\\cmTC_bc3d7.tlog\\cmTC_bc3d7.lastbuildstate".
+        Projeto de compila├º├úo pronto "E:\\Copper\\ai_copper\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76orcu\\cmTC_bc3d7.vcxproj" (destinos padr├úo).
         
         Compila├º├úo com ├¬xito.
             0 Aviso(s)
             0 Erro(s)
         
-        Tempo Decorrido 00:00:01.40
+        Tempo Decorrido 00:00:01.29
         
       exitCode: 0
   -
@@ -1640,19 +1640,19 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/MKLConfig.cmake"
+        path: "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/MKLConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/mkl-config.cmake"
+        path: "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/mkl-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/MKLConfig.cmake"
+        path: "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/MKLConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/mkl-config.cmake"
+        path: "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/mkl-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -1711,8 +1711,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/ai_copper"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1982,19 +1982,19 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/MKLDNNConfig.cmake"
+        path: "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/MKLDNNConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/mkldnn-config.cmake"
+        path: "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/mkldnn-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/MKLDNNConfig.cmake"
+        path: "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/MKLDNNConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/mkldnn-config.cmake"
+        path: "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/mkldnn-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2053,8 +2053,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/ai_copper"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2158,8 +2158,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/ai_copper"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2213,8 +2213,8 @@ events:
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/"
       - "C:/Program Files/lib/"
       - "C:/Program Files/"
       - "C:/Program Files (x86)/lib/"
@@ -2257,8 +2257,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/ai_copper"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2316,8 +2316,8 @@ events:
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/"
       - "C:/Program Files/lib/"
       - "C:/Program Files/"
       - "C:/Program Files (x86)/lib/"
@@ -2360,8 +2360,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/ai_copper"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2418,8 +2418,8 @@ events:
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
-      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-35cf0ac39dc1235c/out/lib/"
-      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-5e2cdbdc46643d1f/out/"
+      - "E:/Copper/ai_copper/target/debug/build/bzip2-sys-4ca8931c132d03b4/out/lib/"
+      - "E:/Copper/ai_copper/target/debug/build/zstd-sys-44ef366f49fc375c/out/"
       - "C:/Program Files/lib/"
       - "C:/Program Files/"
       - "C:/Program Files (x86)/lib/"
@@ -2462,8 +2462,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/ai_copper"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2526,8 +2526,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/ai_copper"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2589,8 +2589,8 @@ events:
         - "C:\\libtorch\\lib"
         - "C:\\libtensorflow\\lib"
         - "C:\\Users\\user\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-35cf0ac39dc1235c\\out\\lib"
-        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-5e2cdbdc46643d1f\\out"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\bzip2-sys-4ca8931c132d03b4\\out\\lib"
+        - "E:\\Copper\\ai_copper\\target\\debug\\build\\zstd-sys-44ef366f49fc375c\\out"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/ai_copper"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"

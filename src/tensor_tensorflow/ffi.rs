@@ -18,4 +18,11 @@ unsafe extern "C" {
     pub fn GetTensorData(tensor_ptr: *mut c_void) -> *mut f32;
     pub fn FreeTFTensor(tensor_ptr: *mut c_void);
     pub fn FreeModel(model_handle: *mut c_void);
+    
+    // Operações aritméticas
+    pub fn TFTensorAdd(tensor_a: *mut c_void, tensor_b: *mut c_void) -> *mut c_void;
+    pub fn TFTensorSub(tensor_a: *mut c_void, tensor_b: *mut c_void) -> *mut c_void;
+    pub fn TFTensorMul(tensor_a: *mut c_void, tensor_b: *mut c_void) -> *mut c_void;
+    pub fn TFTensorDiv(tensor_a: *mut c_void, tensor_b: *mut c_void) -> *mut c_void;
 }
+

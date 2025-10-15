@@ -265,6 +265,304 @@ EXPORT void FreeModel(void* model_handle) {
     }
 }
 
+// Operações aritméticas para TensorFlow
+EXPORT void* TFTensorAdd(void* tensor_a_ptr, void* tensor_b_ptr) {
+    try {
+        TF_Tensor* tensor_a = static_cast<TF_Tensor*>(tensor_a_ptr);
+        TF_Tensor* tensor_b = static_cast<TF_Tensor*>(tensor_b_ptr);
+        
+        if (!tensor_a || !tensor_b) {
+            fprintf(stderr, "Erro: Tensores inválidos em TFTensorAdd\n");
+            return nullptr;
+        }
+        
+        // Verifica se ambos são do tipo float
+        if (TF_TensorType(tensor_a) != TF_FLOAT || TF_TensorType(tensor_b) != TF_FLOAT) {
+            fprintf(stderr, "Erro: Tensores devem ser do tipo TF_FLOAT\n");
+            return nullptr;
+        }
+        
+        // Verifica se têm as mesmas dimensões
+        int num_dims_a = TF_NumDims(tensor_a);
+        int num_dims_b = TF_NumDims(tensor_b);
+        
+        if (num_dims_a != num_dims_b) {
+            fprintf(stderr, "Erro: Tensores têm número diferente de dimensões\n");
+            return nullptr;
+        }
+        
+        std::vector<int64_t> dims(num_dims_a);
+        size_t num_elements = 1;
+        for (int i = 0; i < num_dims_a; ++i) {
+            int64_t dim_a = TF_Dim(tensor_a, i);
+            int64_t dim_b = TF_Dim(tensor_b, i);
+            if (dim_a != dim_b) {
+                fprintf(stderr, "Erro: Tensores têm dimensões incompatíveis\n");
+                return nullptr;
+            }
+            dims[i] = dim_a;
+            num_elements *= dim_a;
+        }
+        
+        float* data_a = static_cast<float*>(TF_TensorData(tensor_a));
+        float* data_b = static_cast<float*>(TF_TensorData(tensor_b));
+        
+        // Aloca memória para o resultado
+        float* result_data = static_cast<float*>(malloc(sizeof(float) * num_elements));
+        if (!result_data) {
+            fprintf(stderr, "Erro: Falha ao alocar memória\n");
+            return nullptr;
+        }
+        
+        // Realiza a adição elemento a elemento
+        for (size_t i = 0; i < num_elements; ++i) {
+            result_data[i] = data_a[i] + data_b[i];
+        }
+        
+        // Cria o tensor resultado
+        TF_Tensor* result_tensor = TF_NewTensor(
+            TF_FLOAT,
+            dims.data(),
+            num_dims_a,
+            result_data,
+            sizeof(float) * num_elements,
+            [](void* data, size_t, void*) { free(data); },
+            nullptr);
+        
+        if (!result_tensor) {
+            free(result_data);
+            fprintf(stderr, "Erro: Falha ao criar tensor resultado\n");
+            return nullptr;
+        }
+        
+        return static_cast<void*>(result_tensor);
+    } catch (const std::exception& e) {
+        fprintf(stderr, "Erro em TFTensorAdd: %s\n", e.what());
+        return nullptr;
+    }
+}
+
+EXPORT void* TFTensorSub(void* tensor_a_ptr, void* tensor_b_ptr) {
+    try {
+        TF_Tensor* tensor_a = static_cast<TF_Tensor*>(tensor_a_ptr);
+        TF_Tensor* tensor_b = static_cast<TF_Tensor*>(tensor_b_ptr);
+        
+        if (!tensor_a || !tensor_b) {
+            fprintf(stderr, "Erro: Tensores inválidos em TFTensorSub\n");
+            return nullptr;
+        }
+        
+        if (TF_TensorType(tensor_a) != TF_FLOAT || TF_TensorType(tensor_b) != TF_FLOAT) {
+            fprintf(stderr, "Erro: Tensores devem ser do tipo TF_FLOAT\n");
+            return nullptr;
+        }
+        
+        int num_dims_a = TF_NumDims(tensor_a);
+        int num_dims_b = TF_NumDims(tensor_b);
+        
+        if (num_dims_a != num_dims_b) {
+            fprintf(stderr, "Erro: Tensores têm número diferente de dimensões\n");
+            return nullptr;
+        }
+        
+        std::vector<int64_t> dims(num_dims_a);
+        size_t num_elements = 1;
+        for (int i = 0; i < num_dims_a; ++i) {
+            int64_t dim_a = TF_Dim(tensor_a, i);
+            int64_t dim_b = TF_Dim(tensor_b, i);
+            if (dim_a != dim_b) {
+                fprintf(stderr, "Erro: Tensores têm dimensões incompatíveis\n");
+                return nullptr;
+            }
+            dims[i] = dim_a;
+            num_elements *= dim_a;
+        }
+        
+        float* data_a = static_cast<float*>(TF_TensorData(tensor_a));
+        float* data_b = static_cast<float*>(TF_TensorData(tensor_b));
+        
+        float* result_data = static_cast<float*>(malloc(sizeof(float) * num_elements));
+        if (!result_data) {
+            fprintf(stderr, "Erro: Falha ao alocar memória\n");
+            return nullptr;
+        }
+        
+        // Realiza a subtração elemento a elemento
+        for (size_t i = 0; i < num_elements; ++i) {
+            result_data[i] = data_a[i] - data_b[i];
+        }
+        
+        TF_Tensor* result_tensor = TF_NewTensor(
+            TF_FLOAT,
+            dims.data(),
+            num_dims_a,
+            result_data,
+            sizeof(float) * num_elements,
+            [](void* data, size_t, void*) { free(data); },
+            nullptr);
+        
+        if (!result_tensor) {
+            free(result_data);
+            fprintf(stderr, "Erro: Falha ao criar tensor resultado\n");
+            return nullptr;
+        }
+        
+        return static_cast<void*>(result_tensor);
+    } catch (const std::exception& e) {
+        fprintf(stderr, "Erro em TFTensorSub: %s\n", e.what());
+        return nullptr;
+    }
+}
+
+EXPORT void* TFTensorMul(void* tensor_a_ptr, void* tensor_b_ptr) {
+    try {
+        TF_Tensor* tensor_a = static_cast<TF_Tensor*>(tensor_a_ptr);
+        TF_Tensor* tensor_b = static_cast<TF_Tensor*>(tensor_b_ptr);
+        
+        if (!tensor_a || !tensor_b) {
+            fprintf(stderr, "Erro: Tensores inválidos em TFTensorMul\n");
+            return nullptr;
+        }
+        
+        if (TF_TensorType(tensor_a) != TF_FLOAT || TF_TensorType(tensor_b) != TF_FLOAT) {
+            fprintf(stderr, "Erro: Tensores devem ser do tipo TF_FLOAT\n");
+            return nullptr;
+        }
+        
+        int num_dims_a = TF_NumDims(tensor_a);
+        int num_dims_b = TF_NumDims(tensor_b);
+        
+        if (num_dims_a != num_dims_b) {
+            fprintf(stderr, "Erro: Tensores têm número diferente de dimensões\n");
+            return nullptr;
+        }
+        
+        std::vector<int64_t> dims(num_dims_a);
+        size_t num_elements = 1;
+        for (int i = 0; i < num_dims_a; ++i) {
+            int64_t dim_a = TF_Dim(tensor_a, i);
+            int64_t dim_b = TF_Dim(tensor_b, i);
+            if (dim_a != dim_b) {
+                fprintf(stderr, "Erro: Tensores têm dimensões incompatíveis\n");
+                return nullptr;
+            }
+            dims[i] = dim_a;
+            num_elements *= dim_a;
+        }
+        
+        float* data_a = static_cast<float*>(TF_TensorData(tensor_a));
+        float* data_b = static_cast<float*>(TF_TensorData(tensor_b));
+        
+        float* result_data = static_cast<float*>(malloc(sizeof(float) * num_elements));
+        if (!result_data) {
+            fprintf(stderr, "Erro: Falha ao alocar memória\n");
+            return nullptr;
+        }
+        
+        // Realiza a multiplicação elemento a elemento
+        for (size_t i = 0; i < num_elements; ++i) {
+            result_data[i] = data_a[i] * data_b[i];
+        }
+        
+        TF_Tensor* result_tensor = TF_NewTensor(
+            TF_FLOAT,
+            dims.data(),
+            num_dims_a,
+            result_data,
+            sizeof(float) * num_elements,
+            [](void* data, size_t, void*) { free(data); },
+            nullptr);
+        
+        if (!result_tensor) {
+            free(result_data);
+            fprintf(stderr, "Erro: Falha ao criar tensor resultado\n");
+            return nullptr;
+        }
+        
+        return static_cast<void*>(result_tensor);
+    } catch (const std::exception& e) {
+        fprintf(stderr, "Erro em TFTensorMul: %s\n", e.what());
+        return nullptr;
+    }
+}
+
+EXPORT void* TFTensorDiv(void* tensor_a_ptr, void* tensor_b_ptr) {
+    try {
+        TF_Tensor* tensor_a = static_cast<TF_Tensor*>(tensor_a_ptr);
+        TF_Tensor* tensor_b = static_cast<TF_Tensor*>(tensor_b_ptr);
+        
+        if (!tensor_a || !tensor_b) {
+            fprintf(stderr, "Erro: Tensores inválidos em TFTensorDiv\n");
+            return nullptr;
+        }
+        
+        if (TF_TensorType(tensor_a) != TF_FLOAT || TF_TensorType(tensor_b) != TF_FLOAT) {
+            fprintf(stderr, "Erro: Tensores devem ser do tipo TF_FLOAT\n");
+            return nullptr;
+        }
+        
+        int num_dims_a = TF_NumDims(tensor_a);
+        int num_dims_b = TF_NumDims(tensor_b);
+        
+        if (num_dims_a != num_dims_b) {
+            fprintf(stderr, "Erro: Tensores têm número diferente de dimensões\n");
+            return nullptr;
+        }
+        
+        std::vector<int64_t> dims(num_dims_a);
+        size_t num_elements = 1;
+        for (int i = 0; i < num_dims_a; ++i) {
+            int64_t dim_a = TF_Dim(tensor_a, i);
+            int64_t dim_b = TF_Dim(tensor_b, i);
+            if (dim_a != dim_b) {
+                fprintf(stderr, "Erro: Tensores têm dimensões incompatíveis\n");
+                return nullptr;
+            }
+            dims[i] = dim_a;
+            num_elements *= dim_a;
+        }
+        
+        float* data_a = static_cast<float*>(TF_TensorData(tensor_a));
+        float* data_b = static_cast<float*>(TF_TensorData(tensor_b));
+        
+        float* result_data = static_cast<float*>(malloc(sizeof(float) * num_elements));
+        if (!result_data) {
+            fprintf(stderr, "Erro: Falha ao alocar memória\n");
+            return nullptr;
+        }
+        
+        // Realiza a divisão elemento a elemento
+        for (size_t i = 0; i < num_elements; ++i) {
+            if (data_b[i] == 0.0f) {
+                fprintf(stderr, "Aviso: Divisão por zero no elemento %zu\n", i);
+                result_data[i] = INFINITY;
+            } else {
+                result_data[i] = data_a[i] / data_b[i];
+            }
+        }
+        
+        TF_Tensor* result_tensor = TF_NewTensor(
+            TF_FLOAT,
+            dims.data(),
+            num_dims_a,
+            result_data,
+            sizeof(float) * num_elements,
+            [](void* data, size_t, void*) { free(data); },
+            nullptr);
+        
+        if (!result_tensor) {
+            free(result_data);
+            fprintf(stderr, "Erro: Falha ao criar tensor resultado\n");
+            return nullptr;
+        }
+        
+        return static_cast<void*>(result_tensor);
+    } catch (const std::exception& e) {
+        fprintf(stderr, "Erro em TFTensorDiv: %s\n", e.what());
+        return nullptr;
+    }
+}
+
 
 
 

@@ -65,6 +65,12 @@ transpose() -> Option<FlowTensors>  // apenas 2D
 reshape(new_dims: &[i64]) -> Option<FlowTensors>
 map<F>(f: F) -> Option<FlowTensors>
 
+// Operadores Aritméticos (std::ops)
+Add (+)  -> Option<FlowTensors>  // a + b
+Sub (-)  -> Option<FlowTensors>  // a - b
+Mul (*)  -> Option<FlowTensors>  // a * b (elemento a elemento)
+Div (/)  -> Option<FlowTensors>  // a / b (elemento a elemento)
+
 // Utilidade
 version_tf() -> String
 ```
@@ -84,6 +90,10 @@ CreateTFTensor()
 GetTensorData()
 FreeTFTensor()
 FreeModel()
+TFTensorAdd()  // Adição elemento a elemento
+TFTensorSub()  // Subtração elemento a elemento
+TFTensorMul()  // Multiplicação elemento a elemento
+TFTensorDiv()  // Divisão elemento a elemento
 ```
 
 ### **Integração Unificada**
@@ -100,7 +110,7 @@ Apenas f32, apenas 2D para transpose, sem Clone nativo, sem operadores matemáti
 #### 🚀 A fazer
 
 **OPERAÇÕES MATEMÁTICAS (Math Ops):**
-- [ ] Add (+), Sub (-), Mul (*), Div (/) - Operadores aritméticos
+- [x] Add (+), Sub (-), Mul (*), Div (/) - Operadores aritméticos ✅
 - [ ] MatMul - Multiplicação de matrizes
 - [ ] BatchMatMul/V2/V3 - Multiplicação em batch
 - [ ] Pow, Sqrt, Square, Abs - Funções matemáticas básicas

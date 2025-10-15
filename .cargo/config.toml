@@ -1,0 +1,16 @@
+[build]
+# Reduz jobs paralelos para economizar memória
+jobs = 1
+
+# Opções adicionais para otimizar uso de memória
+[profile.dev]
+# Compilação mais rápida e menos uso de memória
+opt-level = 0
+debug = true
+split-debuginfo = "unpacked"  # Reduz uso de memória no Windows
+codegen-units = 256  # Mais unidades = menos memória por unidade
+
+[profile.release]
+opt-level = 3
+lto = false  # Desativa LTO para reduzir uso de memória
+codegen-units = 16
