@@ -2,6 +2,8 @@
 /target/
 /Cargo.lock
 
+# Diretório de bibliotecas baixadas automaticamente
+/deps/
 
 /build/
 /CMakeFiles/
@@ -19,3 +21,8 @@ libtorch/
 *.log
 *.swp
 .DS_Store
+
+# Arquivos compactados de bibliotecas
+*.zip
+*.tar.gz
+*.tgz

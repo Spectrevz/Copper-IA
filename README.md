@@ -44,9 +44,32 @@ Adicione ao seu `Cargo.toml`:
 ai_copper = "0.1.3"
 ```
 
+**🎉 Novidade!** As bibliotecas (LibTorch e TensorFlow) são baixadas automaticamente na primeira compilação. Não é mais necessário configurar variáveis de ambiente!
+
+Para mais detalhes sobre instalação, veja [INSTALLATION.md](INSTALLATION.md).
+
+### Backends Opcionais
+
+```toml
+# Apenas LibTorch
+ai_copper = { version = "0.1.3", default-features = false, features = ["libtorch"] }
+
+# Apenas TensorFlow  
+ai_copper = { version = "0.1.3", default-features = false, features = ["tensorflow"] }
+
+# Ambos (padrão)
+ai_copper = "0.1.3"
+```
+
 ## ✨ Novidades v0.1.3
 
-Esta versão adiciona **24 novas funções** focadas em Deep Learning moderno:
+Esta versão adiciona **24 novas funções** focadas em Deep Learning moderno e **download automático de dependências**:
+
+### 🚀 Download Automático
+- ✅ LibTorch 2.1.0 baixado automaticamente
+- ✅ TensorFlow 2.10.0 baixado automaticamente
+- ✅ Sem necessidade de configurar variáveis de ambiente
+- ✅ Suporte a backends opcionais via features
 
 ### 🔥 Funções de Ativação
 ```rust
@@ -216,6 +239,23 @@ fn main() {
     let result = linear.forward(&test);
     result.print();
 }
+```
+
+## 📚 Documentação
+
+- **[INSTALLATION.md](INSTALLATION.md)** - Guia completo de instalação e troubleshooting
+- **[QUICKSTART.md](QUICKSTART.md)** - Exemplos práticos e início rápido
+- **[Documentação da API](docs/index.md)** - Referência completa da API
+
+### Scripts de Teste
+
+```bash
+# Windows
+.\test-installation.ps1
+
+# Linux/Mac
+chmod +x test-installation.sh
+./test-installation.sh
 ```
 
 ## 📚 API Completa

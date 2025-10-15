@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"D:/workspace/Codespaces/Cooper/ai_copper/cpp/build/cmake_install.cmake"
+		"E:/Copper/ai_copper/cpp/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
