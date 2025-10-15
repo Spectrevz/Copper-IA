@@ -371,9 +371,10 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull re
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
 
-## 👨‍💻 Autor
+## 👨‍💻 Autores
 
 **Ryan Lima** - [ryan2020gary@gmail.com](mailto:ryan2020gary@gmail.com)
+**Rodrigo Dias** - [rodrigods.dev@gmail.com](mailto:rodrigods.dev@gmail.com)
 
 ## 🌟 Agradecimentos
 
