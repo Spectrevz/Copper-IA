@@ -100,7 +100,7 @@ fn main() {
     let mut cmake_args = vec![
         "-S".to_string(), "cpp".to_string(),
         "-B".to_string(), cmake_build_dir.display().to_string(),
-        "-DCMAKE_BUILD_TYPE=Debug".to_string(),
+        "-DCMAKE_BUILD_TYPE=Release".to_string(),
         format!("-DCMAKE_PREFIX_PATH={}", torch_path),
     ];
 
@@ -128,7 +128,7 @@ fn main() {
     // Compila o projeto C++
     let build_args = vec![
         "--build".to_string(), cmake_build_dir.display().to_string(),
-        "--config".to_string(), "Debug".to_string(),
+        "--config".to_string(), "Release".to_string(),
     ];
 
     let build_status = Command::new("cmake")
@@ -165,14 +165,15 @@ fn main() {
             }
         }
 
-        let lib_dir = build_dir_abs.join("Debug");
+        // O CMake gera os arquivos em cpp/build/Release/Release no Windows
+        let lib_dir = build_dir_abs.join("Release").join("Release");
         let tf_lib = Path::new(&tf_path).join("lib");
 
         println!("cargo:rustc-link-search=native={}", lib_dir.display());
         link_all_libs_in_dir(&torch_lib, "lib");
         link_all_libs_in_dir(&tf_lib, "lib");
 
-        println!("cargo:rustc-link-lib=dylib=ai_copper");
+        println!("cargo:rustc-link-lib=dylib=ai_copper_cpp");
         println!("cargo:rustc-link-search=native={}", torch_lib.display());
         println!("cargo:rustc-link-search=native={}", tf_lib.display());
 
@@ -196,11 +197,11 @@ fn main() {
         copy_specific_lib(&torch_dll_path, &target_dir);
 
         // Verificação detalhada das DLLs críticas
-        let ai_copper_path = target_dir.join("ai_copper.dll");
-        if !ai_copper_path.exists() {
-            println!("cargo:warning=ai_copper.dll not found in {:?}", target_dir);
+        let ai_copper_cpp_path = target_dir.join("ai_copper_cpp.dll");
+        if !ai_copper_cpp_path.exists() {
+            println!("cargo:warning=ai_copper_cpp.dll not found in {:?}", target_dir);
         } else {
-            println!("cargo:warning=ai_copper.dll found in {:?}", target_dir);
+            println!("cargo:warning=ai_copper_cpp.dll found in {:?}", target_dir);
         }
         let torch_path_check = target_dir.join("torch.dll");
         if !torch_path_check.exists() {
